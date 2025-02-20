@@ -9,11 +9,11 @@ class ProductController extends Controller
     public function index()
     {
         $restaurants = [
-            ['name' => 'The Gourmet Spot', 'cuisine' => 'Italian', 'rating' => 4.8],
-            ['name' => 'Sakura Sushi', 'cuisine' => 'Japanese', 'rating' => 4.6],
-            ['name' => 'Burger Haven', 'cuisine' => 'American', 'rating' => 4.3],
-            ['name' => 'Casa Mexicana', 'cuisine' => 'Mexican', 'rating' => 4.7],
-            ['name' => 'Le Petit Bistro', 'cuisine' => 'French', 'rating' => 4.5],
+            ['name' => 'Grumpy Joe', 'cuisine' => 'Italian-American', 'rating' => 4.8],
+            ['name' => 'Tokyo Grill', 'cuisine' => 'Japanese', 'rating' => 4.6],
+            ['name' => 'Texas Roadhouse', 'cuisine' => 'American', 'rating' => 4.3],
+            ['name' => 'Cuatro Alta', 'cuisine' => 'Mexican', 'rating' => 4.7],
+            ['name' => 'LAtelier Du Grain', 'cuisine' => 'French', 'rating' => 4.5],
         ];
 
         return view('restaurants', compact('restaurants'));
